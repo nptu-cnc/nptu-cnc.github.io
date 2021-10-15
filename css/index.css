@@ -1,0 +1,11 @@
+.cursor:hover
+{
+    cursor: pointer;
+}
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
