@@ -15,10 +15,14 @@ body
     display: block;
     position: relative;
     content: '';
-    
+    width: 30px;
     height: 2px;
     right:0px;
+    padding: 0px 0px;
+    column-rule-width: 0cm;
+    border-width: 0cm;
     
+
     background-color: rgb(66, 127, 180);
     transition-property: width right;
     transition-duration: 0.3s;
@@ -80,7 +84,7 @@ body
 /*-------------rotate-------------*/
 .rotate>span
 {
-    
+    width: 0;
     right: 30px;
 }
 .rotate>span::before
@@ -99,18 +103,3 @@ body
     -webkit-transform: rotate(-45deg);
 }
 /*-------------rotate-------------*/
-.navbar-toggler
-{
-    background-color:rgba(240, 248, 255, 0);
-    line-height: 0cm;
-    padding: 0px 0px;
-
-}
-.navbar-dark .navbar-toggler
-{
-    border-color: rgba(255, 255, 255, 0);
-}
-*, ::after, ::before
-{
-    box-sizing: var(0px) !important;
-}
