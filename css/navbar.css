@@ -20,7 +20,13 @@ body
     right:0px;
     background-color: aliceblue;
     transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
     transition: all 0.3s linear;
+    -moz-transform: all 0.3s linear;
+    -o-transform: all 0.3s linear;
+    -webkit-transform: all 0.3s linear;
 }
 .navbar-toggler>span::before,.navbar-toggler>span::after
 {
@@ -34,11 +40,29 @@ body
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: linear;
+
+    -moz-transition-delay: 0.2s;
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-timing-function: linear;
+
+    -webkit-transition-delay: 0.2s;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: linear;
+    
+    -o-transition-delay: 0.2s;
+    -o-transition-property: all;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: linear;
     
 }
 .navbar-toggler>span::before
 {
     transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
 }
 .rotate>span
 {
@@ -49,10 +73,16 @@ body
 {
     opacity: 1;
     transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 .rotate>span::after
 {
     margin-top: -2px;
     opacity: 1;
     transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
