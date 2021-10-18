@@ -15,9 +15,8 @@ body
     display: block;
     position: relative;
     content: '';
-    width: 30px;
-    height: 2px;
     
+    height: 2px;
     right:0px;
     
     background-color: rgb(66, 127, 180);
@@ -81,7 +80,7 @@ body
 /*-------------rotate-------------*/
 .rotate>span
 {
-    width: 0;
+    
     right: 30px;
 }
 .rotate>span::before
@@ -103,4 +102,15 @@ body
 .navbar-toggler
 {
     background-color:rgba(240, 248, 255, 0);
+    line-height: 0cm;
+    padding: 0px 0px;
+
+}
+.navbar-dark .navbar-toggler
+{
+    border-color: rgba(255, 255, 255, 0);
+}
+*, ::after, ::before
+{
+    box-sizing: var(0px) !important;
 }
