@@ -19,10 +19,10 @@ body
     height: 2px;
     right:0px;
     background-color: aliceblue;
-    transition: all 0.3s linear;
-    -moz-transform: all 0.3s linear;
-    -o-transform: all 0.3s linear;
-    -webkit-transform: all 0.3s linear;
+    transition: width right 0.3s linear;
+    -moz-transform: width right 0.3s linear;
+    -o-transform: width right 0.3s linear;
+    -webkit-transform: width right 0.3s linear;
 }
 .navbar-toggler>span::before,.navbar-toggler>span::after
 {
