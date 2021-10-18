@@ -2,3 +2,57 @@
 {
     cursor: pointer;
 }
+body
+{
+    background-color: rgb(221, 221, 221);
+}
+.navbar-toggler
+{
+    border: 0px;
+}
+.navbar-toggler>span
+{
+    display: block;
+    position: relative;
+    content: '';
+    width: 30px;
+    height: 2px;
+    right:0px;
+    background-color: aliceblue;
+    transform: translateY(-3px);
+    transition: all 0.3s linear;
+}
+.navbar-toggler>span::before,.navbar-toggler>span::after
+{
+    display: block;
+    content: '';
+    width: 30px;
+    height: 2px;
+    transform: translateY(10px);
+    background-color: aliceblue;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    
+}
+.navbar-toggler>span::before
+{
+    transform: translateY(-10px);
+}
+.rotate>span
+{
+    width: 0;
+    right: 30px;
+}
+.rotate>span::before
+{
+    opacity: 1;
+    transform: rotate(45deg);
+}
+.rotate>span::after
+{
+    margin-top: -2px;
+    opacity: 1;
+    transform: rotate(-45deg);
+}
