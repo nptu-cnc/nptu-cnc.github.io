@@ -103,3 +103,10 @@ body
     -webkit-transform: rotate(-45deg);
 }
 /*-------------rotate-------------*/
+footer
+{
+    margin-top: 2cm;
+    padding: 1em 0em;
+    text-align: center;
+    color: aliceblue;
+}
