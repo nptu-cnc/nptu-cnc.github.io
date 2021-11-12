@@ -1,0 +1,78 @@
+.ls 
+{
+    list-style: none;
+    margin-bottom: 3px;
+}
+.ls>a
+{
+    text-decoration: none;
+    color: #007C9D;
+    font-size: 14pt!important;
+}
+.ls>a::after
+{
+    content: "";
+    display: block;
+    position: relative;
+    font-size: 18pt;
+    width: 0em;
+    height: 2px;
+    background-color: #F0B31C;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+.ls>a:hover::after
+{
+    width: 8.5em;
+}
+.block
+{
+    display: block;
+    margin-top: 1em;   
+}
+.ptitle{
+    font-size: 18.5pt !important;
+    margin-block-end: 7px!important;
+}
+.ptitle:hover .ptitle::after
+{
+    width: 0%;
+}
+.ptitle::after
+{
+    content: "";
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    background-color: #F0B31C;
+    height: 5px;
+    width: 70% !important;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+.cnc-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2.5em;
+    min-height: max-content;
+    justify-content:start;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .cnc-row
+    {
+        
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ptitle::after
+    {
+        width: 100%;
+    }
+    
+}
