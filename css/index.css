@@ -2,3 +2,25 @@
 {
     background-color: rgb(134, 134, 134);
 }
+.tb .row
+{
+    height: 4em;
+}
+.row:nth-child(odd) span:nth-child(odd)
+{
+    background-color: rgb(177, 177, 177);
+}
+.row:nth-child(even) span:nth-child(even)
+{
+    background-color: rgb(177, 177, 177);
+}
+.tb
+{
+    background-color: rgb(255, 255, 255);
+}
+.row .col-3>a,.row .col-2>a,.row .col-1>a
+{
+    color: rgb(22, 71, 100);
+    font-weight: bold;
+    text-decoration: none;    
+}
