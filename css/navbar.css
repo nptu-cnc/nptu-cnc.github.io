@@ -2,10 +2,7 @@
 {
     cursor: pointer;
 }
-body
-{
-    background-color: rgb(221, 221, 221);
-}
+
 .navbar-toggler
 {
     border: 0px;
@@ -103,9 +100,23 @@ body
     -webkit-transform: rotate(-45deg);
 }
 /*-------------rotate-------------*/
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body
+{
+    display: flex; /*使物件依序排列*/
+    flex-direction: column;
+    background-color: rgb(221, 221, 221);
+}
+.wrapper
+{
+    flex-grow: 1;
+    margin-bottom: 3em;
+}
 footer
 {
-    margin-top: 2cm;
     padding: 1em 0em;
     text-align: center;
     color: aliceblue;
