@@ -1,0 +1,11 @@
+.hotkey {
+    margin-top: 1em;
+    font-size: 1.3em;
+    background-color: rgba(207, 207, 207, 0.87);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 50%;
+}
+.hotkey-w{
+    color: rgb(31, 126, 126);
+}
