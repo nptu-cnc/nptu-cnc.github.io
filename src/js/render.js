@@ -1,14 +1,13 @@
 import { barComponent } from './components/index.js';
 import { homePage, aboutPage } from './pages/index.js';
-import { createApp } from "vue/dist/vue.esm-browser.js"
-import { createRouter, createWebHistory } from "vue-router/dist/vue-router.esm-browser"
+
 
 const routes = [
     { path: '/', component: homePage },
     { path: '/about', component: aboutPage }
 ]
-const router = createRouter({
-    history: createWebHistory(),
+const router = VueRouter.createRouter({
+    history: VueRouter.createWebHistory(),
     routes: routes
 });
 
@@ -31,7 +30,7 @@ const base = {
 
 
 
-createApp(base)
+Vue.createApp(base)
     .use(router)
     .mount("body");
 
