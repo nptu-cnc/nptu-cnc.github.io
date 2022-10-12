@@ -5,49 +5,46 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        entryPoint: './src/entryPoint.js',
-
+        main: './src/main.js',
     },
     output: {
-        filename: '[hash].js',
-        path: path.resolve(__dirname, 'dist/build')
+        filename: 'static/js/[name]-[hash].js',
+        path: path.resolve(__dirname, 'dist')
     },
     devServer: {
-        static: path.resolve(__dirname, 'dist/build'),
+        static: path.resolve(__dirname, 'dist'),
         port: 9000,
         hot: true,
         open: true,
     },
     module: {
         rules: [
-            {
-                test: /\.(s?css)$/,
-                use: [MiniCssExtractPlugin.loader,'css-loader','sass-loader']
-            },
+
             {
                 test: /\.(html)$/,
-                use: [
-                    {
-                        loader: 'html-loader'
-                    }
-                ]
-            }
+                loader: 'html-loader',
+            },
+            {
+                test: /\.(s?css)$/,
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+            },
         ]
     },
-    optimization: {
-        minimize: true
-      },
     plugins: [
-        new CleanWebpackPlugin(),
-        new MiniCssExtractPlugin({
-            filename: '[hash].css'
-        }),
+        new CleanWebpackPlugin({}),
+
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html',
-            inject:true,
-            minify:true
-        })
-    ]
+            inject: true,
+            minify: false,
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'static/css/[name]-[hash].css'
+        }),
+    ],
+    optimization: {
+        minimize: false
+    },
 
 }

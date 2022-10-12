@@ -12,17 +12,22 @@
     <meta property="og:image" content="https://www.nptu.edu.tw/var/file/0/1000/msys_1000_6184669_17970.jpg">
     <meta property="og:title" content="屏東大學計網中心維護說明網頁" />
     <meta property="og:description" content="屏東大學計網中心維護說明網頁" />
-    <title>屏東大學計網中心維護說明網頁</title>
+    <title>NPTU-CNC維護說明網頁</title>
     <!--Import FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="../node_modules//vue/dist/vue.global.prod.js"></script><!--在此import Vue.js-->
+    <!--這裡兩個js由html-loader處理-->
+    <script src="../node_modules/vue/dist/vue.global.js"></script>
+    <script src="../node_modules/vue-router/dist/vue-router.global.js"></script>
     <!--這裡將會插入進入點-->
 </head>
 
 <body>
-    <div id="app">{{this.data}}</div>
+    <Bar></Bar>
+    <router-link to="/">Go to Home</router-link>
+    <router-link to="/about">Go to About</router-link>
+    <router-view></router-view>
 </body>
 
 </html>
