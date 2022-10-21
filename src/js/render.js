@@ -1,14 +1,23 @@
-import { barComponent } from './components/index.js';
+import { barComponent, footerComponent } from './components/index.js';
 import { homePage, aboutPage } from './pages/index.js';
 
 
 const routes = [
-    { path: '/', component: homePage },
-    { path: '/about', component: aboutPage }
+    { path: '/', name: 'Home', component: homePage },
+    { path: '/about', name: 'about', component: aboutPage }
 ]
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHistory(),
     routes: routes
+});
+
+router.beforeEach(async (to, from) => {
+    console.log("To : ", to)
+    console.log("From : ", from)
+    return
+    if (to.name !== '/') {
+        from
+    }
 });
 
 const base = {
@@ -24,7 +33,8 @@ const base = {
     },
 
     components: {
-        "Bar": barComponent
+        "Bar": barComponent,
+        "Foot": footerComponent,
     }
 }
 

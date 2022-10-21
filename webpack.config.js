@@ -37,7 +37,7 @@ module.exports = {
             template: './src/index.html',
             filename: 'index.html',
             inject: true,
-            minify: false,
+            minify: true,
         }),
         new MiniCssExtractPlugin({
             filename: 'static/css/[name]-[hash].css'

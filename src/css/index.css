@@ -1,6 +1,1 @@
-*{
-    margin: 0px;
-}
-body{
-    margin: 0px;
-}
+@import "~bootstrap/scss/bootstrap";
