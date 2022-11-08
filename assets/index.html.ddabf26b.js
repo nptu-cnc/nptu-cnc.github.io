@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as o,a as e,b as n}from"./app.41319088.js";const a={},r=e("h1",{id:"welcome-to-nptu-cnc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#welcome-to-nptu-cnc","aria-hidden":"true"},"#"),n(" Welcome to NPTU CNC")],-1),s=[r];function _(d,i){return c(),o("div",null,s)}const h=t(a,[["render",_],["__file","index.html.vue"]]);export{h as default};
