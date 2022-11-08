@@ -38,11 +38,12 @@ let map = [
 ]
 
 export default defineUserConfig({
+    'dest': 'build/',
     'title': "NPTU-CUC",
     'theme': defaultTheme({
         'home': '/',
         'lastUpdated': true,
-        'lastUpdatedText': true,
+        'lastUpdatedText': "Last Edit ",
         'contributors': true,
         'colorMode': 'dark',
         'navbar': map,
