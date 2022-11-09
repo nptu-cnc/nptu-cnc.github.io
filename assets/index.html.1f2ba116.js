@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-761e526d","path":"/tutorial/Vscode/","title":"Visual Studio Code","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667895494000,"contributors":[{"name":"karta2341940","email":"a08487a@gmail.com","commits":1}]},"filePathRelative":"tutorial/Vscode/README.md"}');export{t as data};
