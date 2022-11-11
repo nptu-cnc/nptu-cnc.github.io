@@ -1,4 +1,6 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top';
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 let map = [
     {
         'text': 'Home',
@@ -26,7 +28,7 @@ let map = [
                 'link': '/pages/tutorial/NodeJS/'
             },
             {
-                'text': 'Bundle',
+                'text': 'Bundle Tool',
                 'link': '/pages/tutorial/Bundle'
             },
             {
@@ -74,13 +76,18 @@ let map = [
 ]
 
 export default defineUserConfig({
+    'plugins': [
+        backToTopPlugin(),
+        mediumZoomPlugin({
+        }),
+    ],
     'dest': 'build/',
-    'lang':'zh-TW',
+    'lang': 'zh-TW',
     'title': "NPTU-CUC",
-    'description':'NPTU CNC Maintain',
-    'base':"/",
-    'templateBuild':"./docs/template/template.html",
-    'templateDev':'./docs/template/template.html',
+    'description': 'NPTU CNC Maintain',
+    'base': "/",
+    'templateBuild': "./docs/template/template.html",
+    'templateDev': './docs/template/template.html',
     'theme': defaultTheme({
         'home': '/',
         'lastUpdated': true,
