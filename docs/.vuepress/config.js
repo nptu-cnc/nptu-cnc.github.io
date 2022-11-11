@@ -14,6 +14,10 @@ let map = [
                 'link': '/pages/tutorial/Vscode/'
             },
             {
+                'text': 'Markdown',
+                'link': '/pages/tutorial/Markdown'
+            },
+            {
                 'text': 'Git',
                 'link': '/pages/tutorial/Git/'
             },
@@ -33,12 +37,43 @@ let map = [
     },
     {
         'text': '其他',
-        'link': '/pages/other'
+        'link': '/pages/other',
+        'collapsible': true,
+    },
+    {
+        'text': 'Repositories',
+        'link': '/pages/repo',
+        'collapsible': true,
+        'children': [
+            {
+                'text': '各單位網址清單',
+                'link': 'https://github.com/nptu-cnc/URL_List'
+            },
+            {
+                'text': '行政單位',
+                'link': 'https://github.com/nptu-cnc/Academic-unit'
+            },
+            {
+                'text': '學術單位',
+                'link': 'https://github.com/nptu-cnc/Academic-unit'
+            },
+            {
+                'text': '教職員資訊',
+                'link': 'https://github.com/nptu-cnc/Employee-Info'
+            },
+            {
+                'text': '學生資訊',
+                'link': 'https://github.com/nptu-cnc/Student-info'
+            },
+            {
+                'text': '形象頁',
+                'link': 'https://github.com/nptu-cnc/front.nptu'
+            },
+        ]
     },
 ]
 
 export default defineUserConfig({
-    'open':true,
     'dest': 'build/',
     'lang':'zh-TW',
     'title': "NPTU-CUC",

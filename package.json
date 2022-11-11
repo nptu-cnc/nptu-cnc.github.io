@@ -9,7 +9,7 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.53"
