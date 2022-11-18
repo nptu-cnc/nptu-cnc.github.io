@@ -1,4 +1,6 @@
 # Git
+[[toc]]
+
 Git是一款版本控管工具其架構大致可分為遠端與本地端如下圖所示
 [![](https://mermaid.ink/svg/pako:eNptkL1OwzAUhV_FunPzApHC1DFTGTGDsW8aS3FsObaqqqpUJEbYEWRgYSp_GxNvQ6j6FtwkKkUIT_Y557s6viuQViGkMPfClSyf8ZrRaeLFKHg0NuAoenT2jMP-8mG3fZ3Ro9HB-iWH89HHWv2hKytFNWoLRWj3_vj50e7uX_bXV4SxJOEw14EJpTgkyQkLaBzlvu623fNtd7P5md0bh7S0xugwAH2lvAfap659-6fTEMiyEXSxKTlk2YAd_YNdYJBHP__1KZiAQW-EVrSpVW9wCCUa5JDSVWEhYkWNeL2mqIjBni5rCWnwEScQnRIBp1rQUgykhagaXH8DW66H8g)](https://mermaid.live/edit#pako:eNptkL1OwzAUhV_FunPzApHC1DFTGTGDsW8aS3FsObaqqqpUJEbYEWRgYSp_GxNvQ6j6FtwkKkUIT_Y557s6viuQViGkMPfClSyf8ZrRaeLFKHg0NuAoenT2jMP-8mG3fZ3Ro9HB-iWH89HHWv2hKytFNWoLRWj3_vj50e7uX_bXV4SxJOEw14EJpTgkyQkLaBzlvu623fNtd7P5md0bh7S0xugwAH2lvAfap659-6fTEMiyEXSxKTlk2YAd_YNdYJBHP__1KZiAQW-EVrSpVW9wCCUa5JDSVWEhYkWNeL2mqIjBni5rCWnwEScQnRIBp1rQUgykhagaXH8DW66H8g)
 
@@ -11,4 +13,33 @@ Git是一款版本控管工具其架構大致可分為遠端與本地端如下�
 
 
 [![](https://mermaid.ink/img/pako:eNp1kb9OxDAMxl8lygRSWZBu6XATI9OxdjGJ20Y0f0gdVafTSQyMsCNgZUKwMvE2FMRbkF5aENyRIbL8_fzZlldcWIk85y2eBzQCjxRUHnRhWHwOPCmhHBhinWTQsv7l4e31_uPu-fPqcpsh1G6g3m8f-6eb_vpiG_Ho7LEV0AxcChYx1SqyfrkbX6C2hAM_Rn8LPIpIVqd7h7NZxqZvP4mdPJjPh8HyShEDKVN6yEThe5yNKqzWiibTURmp1HuDudDWP9A4VMTYb7cSSdTbZp1MvWoUZzbQv4BGX-HONiPgQtMkHU3cimc8lmhQMp5zNQgFpxo1FjyPocQSQkMFL8w6ohDIniyN4Dn5gBkPTgJN1-d5CU2L6y8EZL-V?type=png)](https://mermaid.live/edit#pako:eNp1kb9OxDAMxl8lygRSWZBu6XATI9OxdjGJ20Y0f0gdVafTSQyMsCNgZUKwMvE2FMRbkF5aENyRIbL8_fzZlldcWIk85y2eBzQCjxRUHnRhWHwOPCmhHBhinWTQsv7l4e31_uPu-fPqcpsh1G6g3m8f-6eb_vpiG_Ho7LEV0AxcChYx1SqyfrkbX6C2hAM_Rn8LPIpIVqd7h7NZxqZvP4mdPJjPh8HyShEDKVN6yEThe5yNKqzWiibTURmp1HuDudDWP9A4VMTYb7cSSdTbZp1MvWoUZzbQv4BGX-HONiPgQtMkHU3cimc8lmhQMp5zNQgFpxo1FjyPocQSQkMFL8w6ohDIniyN4Dn5gBkPTgJN1-d5CU2L6y8EZL-V)
+
+# 常用指令
+
+### git clone
+將伺服器的版本庫複製回本地的作業環境中，以計中維護教學頁面為例。
+
+如下圖所示依序點擊`Code > `![](./img/copy.svg)
+
+![](./img/git1.jpg)
+並且在你想要存放的位置叫出cmd，輸入`git clone`後貼上剛剛複製的連結，按下enter後即可複製遠端的版本庫至本地端。
+![](./img/git2.jpg)
+### git status
+    
+    查看當前目錄下的git資訊
+### git add 
+    
+    將檔案加入版本控管追蹤
+### git commit 
+    
+    提交一個新的版本
+### git push 
+    
+    將本地端的版本更新到遠端伺服器
+### git pull
+    
+    將遠端伺服器的版本更新到本地作業環境
+### git fetch 
+    
+    獲取伺服器端的版本資訊但不進行更新
 
