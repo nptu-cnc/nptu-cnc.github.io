@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as n,a as e,b as s}from"./app.8a84ffc0.js";const a={},c=e("h1",{id:"node-js",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#node-js","aria-hidden":"true"},"#"),s(" Node JS")],-1),d=e("p",null,"Node JS 是一款",-1),r=[c,d];function _(i,l){return t(),n("div",null,r)}const f=o(a,[["render",_],["__file","index.html.vue"]]);export{f as default};
