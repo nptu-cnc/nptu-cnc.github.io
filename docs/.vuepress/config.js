@@ -17,7 +17,7 @@ let map = [
             },
             {
                 'text': 'Markdown',
-                'link': '/pages/tutorial/Markdown'
+                'link': '/pages/tutorial/Markdown/'
             },
             {
                 'text': 'Git',
@@ -29,11 +29,29 @@ let map = [
             },
             {
                 'text': 'Bundle Tool',
-                'link': '/pages/tutorial/Bundle'
+                'link': '/pages/tutorial/Bundle/'
             },
             {
                 'text': 'Vue.js',
-                'link': '/pages/tutorial/Vue/'
+                'link': '/pages/tutorial/Vue/',
+                'children': [
+                    {
+                        'text': 'Introduction',
+                        'link': '/pages/tutorial/Vue/Introduction/'
+                    },
+                    {
+                        'text': '基本語法',
+                        'link': '/pages/tutorial/Vue/basic/'
+                    },
+                    {
+                        'text': 'Todo List',
+                        'link': '/pages/tutorial/Vue/TodoList/'
+                    },
+                    {
+                        'text': 'Movie Card',
+                        'link': '/pages/tutorial/Vue/movieCard/'
+                    },
+                ]
             },
         ]
     },
