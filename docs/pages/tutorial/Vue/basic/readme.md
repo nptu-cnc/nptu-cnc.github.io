@@ -81,3 +81,7 @@ global在使用時無須一一將function import進去，只需要呼叫公開�
 
 [詳細內容可點此查看](https://github.com/nptu-cnc/tutorial/tree/main/Vue/Lesson1/)
 ## 基本語法
+
+在Vue中使用的語法是一種HTML的變體，只要在原本HTML的基礎上加上Vue特有的語法就可以撰寫Vue的模板(`Template`)，
+其中常用的模板語法有`v-bind`、`v-model`、`v-html`、`v-text`、`v-if`、`v-for`及其他在下面會提及的語法。
+### v-bind 

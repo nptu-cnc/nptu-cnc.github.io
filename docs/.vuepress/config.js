@@ -21,7 +21,7 @@ let map = [
             },
             {
                 'text': 'Git',
-                'link': '/pages/tutorial/Git/'
+                'link': '/pages/tutorial/Git/README.md'
             },
             {
                 'text': 'Node.js',
@@ -34,6 +34,7 @@ let map = [
             {
                 'text': 'Vue.js',
                 'link': '/pages/tutorial/Vue/',
+                'collapsible': true,
                 'children': [
                     {
                         'text': 'Introduction',
