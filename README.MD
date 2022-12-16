@@ -5,3 +5,4 @@ Bootstrap with webpack : [Link](https://getbootstrap.com/docs/5.2/getting-starte
 Vue.js:[Link](https://vuejs.org/guide/introduction.html)
 Vue.js Component:[Link](https://www.runoob.com/vue3/vue3-components.html)
 Bootstrap :[Link](https://getbootstrap.com/docs/5.2/)
+[Vue](https://hackmd.io/@CynthiaChuang/Vue-Study-Notes-Contents/%2F%40CynthiaChuang%2FVue-Study-Notes-Unit04%23Computed-%25E8%2588%2587-Watch)

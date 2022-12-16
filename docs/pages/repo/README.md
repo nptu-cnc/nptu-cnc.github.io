@@ -4,3 +4,5 @@
 - [教職員資訊](https://github.com/nptu-cnc/Employee-Info)
 - [學生資訊](https://github.com/nptu-cnc/Student-info)
 - [形象頁](https://github.com/nptu-cnc/front.nptu)
+- [失效連結](https://github.com/nptu-cnc/invalidLink)
+- [教學用repo](https://github.com/nptu-cnc/tutorial)
