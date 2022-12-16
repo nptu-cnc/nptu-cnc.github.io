@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,a as e,b as s}from"./app.13ef9fe9.js";const c={},d=e("h1",{id:"todo-list",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#todo-list","aria-hidden":"true"},"#"),s(" Todo List")],-1),n=[d];function r(i,_){return o(),a("div",null,n)}const h=t(c,[["render",r],["__file","index.html.vue"]]);export{h as default};
