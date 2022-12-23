@@ -7,5 +7,3 @@
 |行政單位(EN)|[Github](https://github.com/nptu-cnc/Administrative-unit/tree/main/en)|Include in html file|Include in html file|None|
 |學術單位(EN)|[Github](https://github.com/nptu-cnc/Academic-unit/tree/main/en)|文檔管理 > academic css|文檔管理 > academic css|desktop.css<br>tablet.css<br>mobile.css<br>mobile.js
 |URL List|[Github](https://github.com/nptu-cnc/URL_List)|Include in HTML file|Include in HTML file|None|
-
-
