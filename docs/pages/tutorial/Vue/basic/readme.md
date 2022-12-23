@@ -90,23 +90,89 @@ v-bind是Vue中用以 **_單向_** 綁定資料的語法，
 在實際使用中會用來即時更新接收到的資料，
 並且會與Vue instance的data搭配使用
 但無法從前端獲取資料並加以處理。
+
+```html
+<!--Example-->
+<div>
+    <a href="#" v-bind:title="hint">
+        hover會看到不一樣的title
+    </a>
+</div>
+```
+```js
+//This is a example
+createApp({
+    data(){
+        return{
+            "hint":"Hi我是被v-bind邦定的內容"
+        }
+    }
+}).mount("#app")
+```
 ### v-model
 在Vue中v-model可以用來 **_雙向_** 綁定資料，
 並且其功能與之後會講的Computed、及Watch有點類似，
 通常會搭配Vue instance的data一同使用，
 主要用途大多用以即時更新資料及運算等。
+
+```html
+<!--Example-->
+<div id="app">
+    <input href="#" v-model.value="inputData">
+</div>
+```
+```js
+//This is a example
+createApp({
+    data(){
+        return{
+            inputData:""
+        }
+    },
+    update(){
+        console.log(this.inputData);
+        //開啟開發者模式中的Console可以看到即時更新的內容
+    }
+}).mount("#app")
+```
 ### v-for 
 這個模板指令通常用來渲染大量且重複的內容，
 譬如購物網站的品項渲染或是學校首頁公告項目皆可以用v-for來實現。
+
+Example
+```html
+<!--Example-->
+<a href="#">
+
+</a>
+```
 ### v-if、v-show
 v-if 跟 v-show 的功能類似，
 皆為動態的隱藏與顯示特定元素，
 兩者的差別在於 v-if 在條件判斷為true時才會渲染至前端，
 而 v-show 則是在網頁Loading時渲染，爾後再依照條件判斷的內容決定是否將該元素設置為`display:none;`。
+```html
+<!--Example-->
+<a href="#">
+hover會看到不一樣的title
+</a>
+```
 ### v-html
 會將給予的東西直接當作HTML插入HTML結構內。
+```html
+<!--Example-->
+<a href="#">
+hover會看到不一樣的title
+</a>
+```
 ### v-text
 會將給予的東西直接當作純文字插入HTML的結構之中，就算輸入的內容符合HTML的格式也是一樣會以純文字的方式呈現。
+```html
+<!--Example-->
+<a href="#">
+hover會看到不一樣的title
+</a>
+```
 ### 
 
 
