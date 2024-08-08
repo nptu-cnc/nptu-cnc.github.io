@@ -9,17 +9,23 @@ hero:
   actions:
     - theme: brand
       text: Node.JS
-      link: /
+      link: /docs/nodejs/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Git教學
+      link: /docs/git/
+    - theme: alt
+      text: Markdown教學
+      link: /docs/markdown/
+    - theme: alt
+      text: Visual Studio Code
+      link: /docs/vscode/
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

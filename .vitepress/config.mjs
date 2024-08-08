@@ -5,22 +5,26 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 export default withMermaid({
   // your existing vitepress config...
   // optionally, you can pass MermaidConfig
-  outDir:'./build',
   title: "國立屏東大學計網中心",
   appearance:'dark',
   lastUpdated:true,
   assetsDir:'image',
+  outDir:'./build',
   themeConfig: {
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首頁', link: '/' },
+      { text: 'Node.JS', link: '/docs/nodejs/' },
+      { text: 'Git', link: '/docs/git/' },
+      { text: 'Markdown', link: '/docs/markdown/' },
+      { text: 'Visual Studio Code', link: '/docs/vscode/' }
     ],
 
     sidebar: [
       {
-        text: '前端',
-        link:'/docs/front',
+        text: 'NodeJS',
+        link:'/docs/nodejs',
         collapsed: false,
         items: [
           { text: '開發', link: '/docs/front#開發' },
@@ -29,8 +33,8 @@ export default withMermaid({
         ]
       },
       {
-        text: '後端',
-        link:'/docs/sdic',
+        text: 'Git',
+        link:'/docs/git',
         collapsed: false,
         items: [
           { text: '開發', link: '/docs/sdic#開發' },
@@ -41,8 +45,8 @@ export default withMermaid({
         ]
       },
       {
-        text: 'Label Studio',
-        link:'/docs/labelstudio',
+        text: 'Markdown',
+        link:'/docs/markdown',
         collapsed: false,
         items: [
           { text: '開發', link: '/docs/labelstudio#開發' },
@@ -50,8 +54,8 @@ export default withMermaid({
         ]
       },
       {
-        text: 'AI服務',
-        link:'/docs/ai',
+        text: 'Visual Studio Code',
+        link:'/docs/vscode',
         collapsed: false,
         items: [
           { text: '開發', link: '/docs/ai#開發' },
