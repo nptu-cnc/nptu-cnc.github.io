@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Welcome to NPTU CNC Maintainer web site","lang":"zh-TW","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1668147928000,"contributors":[{"name":"MX,Du","email":"a08487a@gmail.com","commits":3}]},"filePathRelative":"index.md"}');export{e as data};
