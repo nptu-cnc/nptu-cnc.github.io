@@ -8,8 +8,8 @@ hero:
   tagline: 屏東大學工讀生維護教學網站
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Node.JS
+      link: /
     - theme: alt
       text: API Examples
       link: /api-examples
