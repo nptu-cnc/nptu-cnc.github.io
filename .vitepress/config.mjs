@@ -26,50 +26,25 @@ export default withMermaid({
         text: 'NodeJS',
         link:'/docs/nodejs',
         collapsed: false,
-        items: [
-          { text: '開發', link: '/docs/front#開發' },
-          { text: '部屬', link: '/docs/front#部屬' },
-          { text: '架構', link: '/docs/front#架構' },
-        ]
       },
       {
         text: 'Git',
         link:'/docs/git',
         collapsed: false,
-        items: [
-          { text: '開發', link: '/docs/sdic#開發' },
-          { text: '部屬', link: '/docs/sdic#部屬' },
-          { text: 'SQL', link: '/docs/sdic#SQL' },
-          { text: '架構', link: '/docs/sdic#架構' },
-          { text: 'API規格', link: '/docs/sdic#API規格' },
-        ]
       },
       {
         text: 'Markdown',
         link:'/docs/markdown',
         collapsed: false,
-        items: [
-          { text: '開發', link: '/docs/labelstudio#開發' },
-          { text: '部屬', link: '/docs/labelstudio#部屬' },
-        ]
       },
       {
         text: 'Visual Studio Code',
         link:'/docs/vscode',
         collapsed: false,
-        items: [
-          { text: '開發', link: '/docs/ai#開發' },
-          { text: '部屬', link: '/docs/ai#部屬' },
-          { text: 'API規格', link: '/docs/ai/api.spec.md' },
-        ]
       },
       {
         text: 'VitePress官方範例',
         collapsed: true,
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
       }
     ],
 
@@ -80,11 +55,7 @@ export default withMermaid({
 
   sidebar: [
     {
-      text: 'Examples',
-      items: [
-        { text: 'Markdown Examples', link: '/markdown-examples' },
-        { text: 'Runtime API Examples', link: '/api-examples' }
-      ]
+      text: 'Examples'
     }
   ],
   mermaid: {
