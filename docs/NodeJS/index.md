@@ -5,12 +5,39 @@
 Node JS 是一款運行JavaScript的開放原始碼跨平台執行環境，
 它提供了一個溝通橋梁讓原本只能運行在網頁上的JaveScript得以直接與作業系統層的API溝通，
 並且使用npm作為套件管理工具，以下是幾個常用的npm指令
-|     指令      |     功能     |
-| :-----------: | :----------: |
-|  npm run OOO  |  執行script  |
-|  npm install  |   安裝套件   |
-| npm uninstall | 解除安裝套件 |
 
+:::warning  注意事項
+在執行指令前需要先確認命令提示字元(CMD、PowerShell等...bash工具)所在目錄(CWD Current Working Directory)為專案的目錄位置。
+:::
+
+|     指令      |      功能       |
+| :-----------: | :-------------: |
+|  npm run OOO  |   執行script    |
+|  npm install  |    安裝套件     |
+| npm uninstall |  解除安裝套件   |
+|    npx OOO    | 直接執行OOO套件 |
+
+:::info
+在維護專案時請先確認是否有裝好套件，並且package.json內的指令需要在安裝完套件後才能使用。在維護時可以使用github的codeSpace，或是使用git clone將專案抓到到本地端進行維護
+- 1 使用codeSpace維護專案步驟如下
+
+```mermaid
+graph TD
+  a[在github中開啟要修改的repo]-->b[點選< > Code]
+  b-->c[選擇Codespace]
+  c-->d[點選Create codespace on main]
+  d-->e[等待codespace自動安裝套件]
+  e-->f[開始維護]
+```
+
+- 2 使用git clone維護專案的步驟如下：
+```mermaid
+graph LR
+  a[用git將專案clone到本地]-->b[用cmd執行npm install]
+  b-->c[開始維護專案]
+```
+
+:::
 
 ## npm run 
 npm run 是用來執行

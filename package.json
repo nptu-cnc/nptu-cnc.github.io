@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "vitepress dev",
+    "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "deploy":"npm run build && gh-pages -d build"
