@@ -5,10 +5,19 @@
 Node JS 是一款運行JavaScript的開放原始碼跨平台執行環境，
 它提供了一個溝通橋梁讓原本只能運行在網頁上的JaveScript得以直接與作業系統層的API溝通，
 並且使用npm作為套件管理工具，以下是幾個常用的npm指令
+|     指令      |     功能     |
+| :-----------: | :----------: |
+|  npm run OOO  |  執行script  |
+|  npm install  |   安裝套件   |
+| npm uninstall | 解除安裝套件 |
+
+
 ## npm run 
-npm run 是用來執行package.json中scripts欄位中所寫的指令，
-以此專案為例這裡可以看到scripts中有三個指令分別為start, build, deploy。
+npm run 是用來執行
+`package.json`中`scripts`欄位中所寫的指令，
+以此專案為例這裡可以看到scripts中有三個指令分別為`start`, `build`, `deploy`。
 如果需要執行deploy的話只需要輸入`npm run deploy`即可。
+
 ```json
 {
   "name": "nptucnc",
