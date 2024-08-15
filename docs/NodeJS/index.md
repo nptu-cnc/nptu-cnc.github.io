@@ -13,7 +13,7 @@ Node JS 是一款運行JavaScript的開放原始碼跨平台執行環境，
 |     指令      |      功能       |
 | :-----------: | :-------------: |
 |  npm run OOO  |   執行script    |
-|  npm install  |    安裝套件     |
+|  npm install  |    安裝套件 (在所有Node專案剛clone時第一個執行的指令)   |
 | npm uninstall |  解除安裝套件   |
 |    npx OOO    | 直接執行OOO套件 |
 

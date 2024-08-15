@@ -44,6 +44,7 @@ export default withMermaid({
       },
       {
         text: 'VitePress官方範例',
+        link:'/markdown-examples',
         collapsed: true,
       }
     ],
