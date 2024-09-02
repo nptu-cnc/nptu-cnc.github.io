@@ -24,7 +24,7 @@ export default withMermaid({
     sidebar: [
       {
         text: 'nodejs',
-        link:'/docs/nodejs',
+        link:'/docs/NodeJS',
         collapsed: false,
       },
       {

@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Node.JS
-      link: /docs/nodejs/
+      link: /docs/NodeJS/
     - theme: alt
       text: Git教學
       link: /docs/git/
