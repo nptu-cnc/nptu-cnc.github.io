@@ -15,7 +15,7 @@ export default withMermaid({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首頁', link: '/' },
-      { text: 'Node.JS', link: '/docs/nodejs/' },
+      { text: 'Node.JS', link: '/docs/NodeJS/' },
       { text: 'Git', link: '/docs/git/' },
       { text: 'Markdown', link: '/docs/markdown/' },
       { text: 'Visual Studio Code', link: '/docs/vscode/' }
@@ -24,7 +24,7 @@ export default withMermaid({
     sidebar: [
       {
         text: 'NodeJS',
-        link:'/docs/nodejs',
+        link:'/docs/NodeJS',
         collapsed: false,
       },
       {
