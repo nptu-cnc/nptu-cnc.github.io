@@ -44,7 +44,7 @@ sequenceDiagram
 
 # 常用指令
 
-### git clone
+### git clone with HTTPS
 將伺服器的版本庫複製回本地的作業環境中，以計中維護教學頁面為例。
 
 如下圖所示依序點擊`Code > `![An image](../../assets/git/copy.svg)
@@ -52,6 +52,20 @@ sequenceDiagram
 ![An image](../../assets/git/git1.jpg)
 並且在你想要存放的位置叫出cmd，輸入`git clone`後貼上剛剛複製的連結，按下enter後即可複製遠端的版本庫至本地端。
 ![An image](../../assets/git/git2.jpg)
+
+### git clone with SSH
+如果想要利用GitLab的SSH進行`git clone`的話，可以先到本地端的Windows PowerShell輸入`ssh-keygen -t rsa`
+![An image](../../assets/git/git3.jpg)
+如果沒有要設定存檔路徑或是通行密碼可以直接按`enter`到底，結果如下
+![An image](../../assets/git/git4.jpg)
+可以到剛剛存檔的路徑找到id_rsa.pub的檔案並開啟然後將ssh-rsa......等全部字串複製下來
+![An image](../../assets/git/git5.jpg)
+打開GitLab後選擇設定並依序點擊SSH Keys > Add new key
+![An image](../../assets/git/git6.jpg)
+將剛剛複製的字串全部貼上後再輸入標題和失效期限就可以了。
+![An image](../../assets/git/git7.jpg)
+到要複製下來的專案頁面選擇`Clone with SSH`，之後的操作就和clone with HTTPS一樣。
+![An image](../../assets/git/git8.jpg)
 ### git status
     
     查看當前目錄下的git資訊
@@ -70,4 +84,3 @@ sequenceDiagram
 ### git fetch 
     
     獲取伺服器端的版本資訊但不進行更新
-
