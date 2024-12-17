@@ -66,6 +66,7 @@ sequenceDiagram
 ![An image](../../assets/git/git7.jpg)
 到要複製下來的專案頁面選擇`Clone with SSH`，之後的操作就和clone with HTTPS一樣。
 ![An image](../../assets/git/git8.jpg)
+
 ### git status
     
     查看當前目錄下的git資訊
