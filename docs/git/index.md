@@ -58,7 +58,7 @@ sequenceDiagram
 ![An image](../../assets/git/git3.jpg)
 如果沒有要設定存檔路徑或是通行密碼可以直接按`enter`到底，結果如下
 ![An image](../../assets/git/git4.jpg)
-可以到剛剛存檔的路徑找到id_rsa.pub的檔案並開啟然後將ssh-rsa......等全部字串複製下來
+然後到剛剛存檔的路徑找到id_rsa.pub的檔案開啟並將ssh-rsa......等全部字串複製下來
 ![An image](../../assets/git/git5.jpg)
 打開GitLab後選擇設定並依序點擊SSH Keys > Add new key
 ![An image](../../assets/git/git6.jpg)
