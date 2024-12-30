@@ -9,4 +9,4 @@ https://nptu-cnc.github.io/
 
 # 示範影片
 
-![deploy_demo](./deploy_demo.mp4)
+![](./deploy_demo.mp4)
