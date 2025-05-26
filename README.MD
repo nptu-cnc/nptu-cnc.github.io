@@ -7,6 +7,8 @@ https://nptu-cnc.github.io/
 2. 原始碼 push 到 git上。(先commit 再push)
 3. 此專案皆由markdown撰寫。
 
+### *為避免發生Github和GitLab原始碼不同步，若要修改此專案請至GitLab修改*
+
 # 示範影片
 
 ![](./deploy_demo.mp4)
