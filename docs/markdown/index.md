@@ -1,6 +1,6 @@
-# Markdwon
+# Markdown
 Markdown 是一種輕量級標記式語言，它有純文字標記的特性，__讓編寫的可讀性提升__，並且Markdown可以混合 __HTML__ 一同使用。
-Markdown同時擁有了HTML的特性同時也比HTML還要易於撰寫。在
+Markdown同時擁有了HTML的特性同時也比HTML還要易於撰寫。
 
 ## 目錄
 [[toc]]
